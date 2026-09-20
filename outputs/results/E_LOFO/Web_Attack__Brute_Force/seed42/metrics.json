@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "Web_Attack__Brute_Force",
+  "seed": 42,
+  "metrics": {
+    "family": "Web Attack - Brute Force",
+    "n_zero_day_rows": 1470,
+    "zero_day_detection_rate": 0.9177,
+    "benign_fpr": 0.2854,
+    "selected_round": 198,
+    "zero_day_f1": 0.5122,
+    "zero_day_precision": 0.3553
+  },
+  "config": {
+    "family": "Web Attack - Brute Force"
+  },
+  "wall_clock_s": 92.44329118728638,
+  "finished_at": "2026-09-10 02:05:35"
+}

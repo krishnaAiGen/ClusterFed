@@ -1,0 +1,142 @@
+{
+  "client1: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.98636,
+    "uncertainty_diagnostics": []
+  },
+  "client2: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9961565836298932,
+    "overall_purity": 0.95124,
+    "uncertainty_diagnostics": []
+  },
+  "client3: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9963513892786977,
+    "overall_purity": 0.96236,
+    "uncertainty_diagnostics": []
+  },
+  "client4: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9971965236893748,
+    "overall_purity": 0.98056,
+    "uncertainty_diagnostics": []
+  },
+  "client5: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.860686511128989,
+    "overall_purity": 0.95224,
+    "uncertainty_diagnostics": []
+  },
+  "client6: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.997062937062937,
+    "overall_purity": 0.98296,
+    "uncertainty_diagnostics": []
+  },
+  "client7: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8606271777003485,
+    "overall_purity": 0.95132,
+    "uncertainty_diagnostics": []
+  },
+  "client8: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9997205533044572,
+    "overall_purity": 0.98632,
+    "uncertainty_diagnostics": []
+  },
+  "client9: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9998601985181043,
+    "overall_purity": 0.98584,
+    "uncertainty_diagnostics": []
+  },
+  "client10: DoS GoldenEye": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.950477561167081,
+    "uncertainty_diagnostics": []
+  },
+  "client11: FTP-Patator": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9980663873670641,
+    "overall_purity": 0.9311133473607173,
+    "uncertainty_diagnostics": []
+  },
+  "client12: DoS slowloris": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.8504573904670197,
+    "uncertainty_diagnostics": []
+  },
+  "client13: DoS Slowhttptest": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.8613609698865858,
+    "uncertainty_diagnostics": []
+  },
+  "client14: SSH-Patator": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.8943771357564461,
+    "uncertainty_diagnostics": []
+  },
+  "client15: Bot": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9973285841495992,
+    "overall_purity": 0.8703798767967146,
+    "uncertainty_diagnostics": []
+  },
+  "client16: Web Attack - Brute Force": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9984544049459042,
+    "overall_purity": 0.927891156462585,
+    "uncertainty_diagnostics": []
+  },
+  "client17: Web Attack - XSS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9493865030674846,
+    "uncertainty_diagnostics": []
+  },
+  "client18: Infiltration": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9166666666666666,
+    "uncertainty_diagnostics": []
+  },
+  "client19: Web Attack - Sql Injection": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9285714285714286,
+    "uncertainty_diagnostics": []
+  },
+  "client20: Heartbleed": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 1.0,
+    "uncertainty_diagnostics": []
+  }
+}

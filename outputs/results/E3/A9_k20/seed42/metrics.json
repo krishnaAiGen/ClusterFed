@@ -1,0 +1,20 @@
+{
+  "experiment": "E3",
+  "arm": "A9_k20",
+  "seed": 42,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9323,
+    "labeling_refined_avg_f1": 0.9309
+  },
+  "config": {
+    "overrides": {
+      "clustering.n_clusters": 20
+    },
+    "label_source": "pseudo",
+    "skip_federated": true
+  },
+  "wall_clock_s": 20.90401268005371,
+  "finished_at": "2026-09-09 19:11:48"
+}

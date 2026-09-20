@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "DoS_Hulk",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS Hulk",
+    "n_zero_day_rows": 20000,
+    "zero_day_detection_rate": 0.9526,
+    "benign_fpr": 0.3582,
+    "selected_round": 22,
+    "zero_day_f1": 0.9055,
+    "zero_day_precision": 0.8629
+  },
+  "config": {
+    "family": "DoS Hulk"
+  },
+  "wall_clock_s": 78.81547594070435,
+  "finished_at": "2026-09-10 01:53:36"
+}

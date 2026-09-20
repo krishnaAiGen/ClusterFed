@@ -1,0 +1,72 @@
+{
+  "Bot": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9289402173913044,
+    "overall_purity": 0.97304,
+    "uncertainty_diagnostics": []
+  },
+  "DDoS-HOIC": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.99564,
+    "uncertainty_diagnostics": []
+  },
+  "DoS GoldenEye": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9998608792431831,
+    "overall_purity": 0.98404,
+    "uncertainty_diagnostics": []
+  },
+  "DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.98952,
+    "uncertainty_diagnostics": []
+  },
+  "DoS SlowHTTPTest": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 1.0,
+    "uncertainty_diagnostics": []
+  },
+  "DoS Slowloris": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9547893748323047,
+    "uncertainty_diagnostics": []
+  },
+  "FTP-BruteForce": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 1.0,
+    "uncertainty_diagnostics": []
+  },
+  "DDoS-LOIC-HTTP + Infiltration": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.6410649300900211,
+    "overall_purity": 0.60468,
+    "uncertainty_diagnostics": []
+  },
+  "SSH-BruteForce + LOIC-UDP": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9982031789910158,
+    "overall_purity": 0.99364,
+    "uncertainty_diagnostics": []
+  },
+  "WebBF + XSS + SQLi": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.896049896049896,
+    "overall_purity": 0.8817873303167421,
+    "uncertainty_diagnostics": []
+  }
+}

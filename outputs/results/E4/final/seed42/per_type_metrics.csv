@@ -1,0 +1,14 @@
+node,attack_type,n_test,precision,recall,f1
+1,Bot,381,0.7182,0.622,0.6667
+2,DDoS,3980,0.9369,1.0,0.9674
+3,DoS GoldenEye,2027,0.8816,0.9921,0.9336
+4,DoS Hulk,4013,0.9327,0.9988,0.9646
+5,DoS Slowhttptest,1015,0.775,0.8788,0.8236
+6,DoS slowloris,1079,0.7716,0.9703,0.8596
+7,FTP-Patator,1177,0.8095,1.0,0.8947
+8,Infiltration,1,0.0033,1.0,0.0066
+8,PortScan,3968,0.9165,0.8329,0.8727
+9,SSH-Patator,671,0.7764,0.9314,0.8469
+10,Web Attack - Brute Force,275,0.6787,0.8909,0.7704
+10,Web Attack - Sql Injection,6,0.0333,0.6667,0.0635
+10,Web Attack - XSS,132,0.5167,0.9394,0.6667

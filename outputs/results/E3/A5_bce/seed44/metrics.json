@@ -1,0 +1,23 @@
+{
+  "experiment": "E3",
+  "arm": "A5_bce",
+  "seed": 44,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9263,
+    "labeling_refined_avg_f1": 0.924,
+    "federated_detection_avg_f1": 0.8158,
+    "federated_detection_avg_acc": 0.7872,
+    "selected_round": 21
+  },
+  "config": {
+    "overrides": {
+      "imbalance.loss": "bce"
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 261.4252049922943,
+  "finished_at": "2026-09-09 20:39:58"
+}

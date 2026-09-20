@@ -1,0 +1,15 @@
+{
+  "experiment": "E2",
+  "arm": "B1_zhao_dynamic_threshold",
+  "seed": 42,
+  "metrics": {
+    "federated_detection_avg_f1": 0.3423,
+    "federated_detection_avg_acc": 0.5525,
+    "selected_round": 191
+  },
+  "config": {
+    "baseline": "B1_zhao_dynamic_threshold"
+  },
+  "wall_clock_s": 333.30087327957153,
+  "finished_at": "2026-09-09 23:02:37"
+}

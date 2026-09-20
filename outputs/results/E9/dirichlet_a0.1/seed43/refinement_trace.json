@@ -1,0 +1,72 @@
+{
+  "client1: Bot + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9929406574012795,
+    "overall_purity": 0.889354458557025,
+    "uncertainty_diagnostics": []
+  },
+  "client2: DDoS + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9860120296544971,
+    "overall_purity": 0.96152,
+    "uncertainty_diagnostics": []
+  },
+  "client3: Bot + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.982120989468528,
+    "overall_purity": 0.8751364330932111,
+    "uncertainty_diagnostics": []
+  },
+  "client4: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9457253329514536,
+    "overall_purity": 0.895191631868359,
+    "uncertainty_diagnostics": []
+  },
+  "client5: Bot + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9743135518157662,
+    "overall_purity": 0.8273635477582846,
+    "uncertainty_diagnostics": []
+  },
+  "client6: DDoS + DoS Slowhttptest + DoS slowloris...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.957015742642026,
+    "overall_purity": 0.94272,
+    "uncertainty_diagnostics": []
+  },
+  "client7: DDoS + DoS GoldenEye + FTP-Patator...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8367619556505477,
+    "overall_purity": 0.92688,
+    "uncertainty_diagnostics": []
+  },
+  "client8: DDoS + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9887640449438202,
+    "overall_purity": 0.8818282219012828,
+    "uncertainty_diagnostics": []
+  },
+  "client9: DDoS + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9963683904706566,
+    "overall_purity": 0.95056,
+    "uncertainty_diagnostics": []
+  },
+  "client10: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.8493723849372385,
+    "uncertainty_diagnostics": []
+  }
+}

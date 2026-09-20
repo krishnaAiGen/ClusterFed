@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "DDoS",
+  "seed": 42,
+  "metrics": {
+    "family": "DDoS",
+    "n_zero_day_rows": 20000,
+    "zero_day_detection_rate": 0.8505,
+    "benign_fpr": 0.314,
+    "selected_round": 133,
+    "zero_day_f1": 0.8583,
+    "zero_day_precision": 0.8663
+  },
+  "config": {
+    "family": "DDoS"
+  },
+  "wall_clock_s": 93.38095617294312,
+  "finished_at": "2026-09-10 01:50:49"
+}

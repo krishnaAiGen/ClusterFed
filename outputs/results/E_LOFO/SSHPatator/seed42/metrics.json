@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "SSHPatator",
+  "seed": 42,
+  "metrics": {
+    "family": "SSH-Patator",
+    "n_zero_day_rows": 3219,
+    "zero_day_detection_rate": 0.932,
+    "benign_fpr": 0.307,
+    "selected_round": 198,
+    "zero_day_f1": 0.6777,
+    "zero_day_precision": 0.5324
+  },
+  "config": {
+    "family": "SSH-Patator"
+  },
+  "wall_clock_s": 97.16762804985046,
+  "finished_at": "2026-09-10 02:04:03"
+}

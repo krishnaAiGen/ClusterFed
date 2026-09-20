@@ -1,0 +1,18 @@
+{
+  "experiment": "E4",
+  "arm": "final",
+  "seed": 44,
+  "metrics": {
+    "minority_mean_f1": 0.193,
+    "selected_round": 24
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 0,
+      "federated.fedprox_mu": 0.1,
+      "clustering.n_clusters": 16
+    }
+  },
+  "wall_clock_s": 88.72334718704224,
+  "finished_at": "2026-09-09 22:32:27"
+}

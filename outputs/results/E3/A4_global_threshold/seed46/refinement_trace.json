@@ -1,0 +1,492 @@
+{
+  "Bot": {
+    "delta_r": [
+      0.199435318275154,
+      0.20251540041067762,
+      0.2045687885010267
+    ],
+    "seed_set_size_r": [
+      2630,
+      3073,
+      3361
+    ],
+    "seed_purity": 0.8033323415650104,
+    "overall_purity": 0.7954312114989733,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 1529,
+        "n_disagree": 419,
+        "agree_std_median": 0.37507200241088867,
+        "disagree_std_median": 0.3992549777030945,
+        "auroc_std_predicts_disagreement": 0.5564464895863739,
+        "n_relabeled": 19,
+        "relabel_correct_before": 18,
+        "relabel_correct_after": 1,
+        "relabel_net_correctness_gain": -17
+      },
+      {
+        "n_agree": 942,
+        "n_disagree": 324,
+        "agree_std_median": 0.3846616744995117,
+        "disagree_std_median": 0.3993726074695587,
+        "auroc_std_predicts_disagreement": 0.5417977248302797,
+        "n_relabeled": 12,
+        "relabel_correct_before": 12,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -12
+      },
+      {
+        "n_agree": 515,
+        "n_disagree": 308,
+        "agree_std_median": 0.36144325137138367,
+        "disagree_std_median": 0.37784895300865173,
+        "auroc_std_predicts_disagreement": 0.5313012230487958,
+        "n_relabeled": 8,
+        "relabel_correct_before": 8,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -8
+      }
+    ]
+  },
+  "DDoS": {
+    "delta_r": [
+      0.02884,
+      0.03,
+      0.03012
+    ],
+    "seed_set_size_r": [
+      16856,
+      19654,
+      21475
+    ],
+    "seed_purity": 0.9750873108265425,
+    "overall_purity": 0.96988,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 12103,
+        "n_disagree": 397,
+        "agree_std_median": 0.38888731598854065,
+        "disagree_std_median": 0.5509263277053833,
+        "auroc_std_predicts_disagreement": 0.794941446122295,
+        "n_relabeled": 106,
+        "relabel_correct_before": 106,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -106
+      },
+      {
+        "n_agree": 7871,
+        "n_disagree": 273,
+        "agree_std_median": 0.4239073097705841,
+        "disagree_std_median": 0.6486684679985046,
+        "auroc_std_predicts_disagreement": 0.8439297965406465,
+        "n_relabeled": 29,
+        "relabel_correct_before": 29,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -29
+      },
+      {
+        "n_agree": 5130,
+        "n_disagree": 216,
+        "agree_std_median": 0.40445953607559204,
+        "disagree_std_median": 0.5980454683303833,
+        "auroc_std_predicts_disagreement": 0.8270233196159122,
+        "n_relabeled": 3,
+        "relabel_correct_before": 3,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -3
+      }
+    ]
+  },
+  "DoS GoldenEye": {
+    "delta_r": [
+      0.12403506476514457,
+      0.12645558026952766,
+      0.12763312835274107
+    ],
+    "seed_set_size_r": [
+      10318,
+      12057,
+      13187
+    ],
+    "seed_purity": 0.8898157276105255,
+    "overall_purity": 0.8723668716472589,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 7025,
+        "n_disagree": 618,
+        "agree_std_median": 0.3506423532962799,
+        "disagree_std_median": 0.3365973234176636,
+        "auroc_std_predicts_disagreement": 0.46744946964723766,
+        "n_relabeled": 76,
+        "relabel_correct_before": 73,
+        "relabel_correct_after": 3,
+        "relabel_net_correctness_gain": -70
+      },
+      {
+        "n_agree": 4406,
+        "n_disagree": 562,
+        "agree_std_median": 0.38192319869995117,
+        "disagree_std_median": 0.3901689350605011,
+        "auroc_std_predicts_disagreement": 0.5295282395568645,
+        "n_relabeled": 49,
+        "relabel_correct_before": 43,
+        "relabel_correct_after": 6,
+        "relabel_net_correctness_gain": -37
+      },
+      {
+        "n_agree": 2750,
+        "n_disagree": 479,
+        "agree_std_median": 0.3599628508090973,
+        "disagree_std_median": 0.36873430013656616,
+        "auroc_std_predicts_disagreement": 0.5211668248244449,
+        "n_relabeled": 32,
+        "relabel_correct_before": 25,
+        "relabel_correct_after": 7,
+        "relabel_net_correctness_gain": -18
+      }
+    ]
+  },
+  "DoS Hulk": {
+    "delta_r": [
+      0.05492,
+      0.0576,
+      0.05768
+    ],
+    "seed_set_size_r": [
+      16875,
+      19719,
+      21567
+    ],
+    "seed_purity": 0.9452867807298188,
+    "overall_purity": 0.94232,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 11146,
+        "n_disagree": 1354,
+        "agree_std_median": 0.3759344220161438,
+        "disagree_std_median": 0.4133770167827606,
+        "auroc_std_predicts_disagreement": 0.6027738190118479,
+        "n_relabeled": 125,
+        "relabel_correct_before": 122,
+        "relabel_correct_after": 3,
+        "relabel_net_correctness_gain": -119
+      },
+      {
+        "n_agree": 7128,
+        "n_disagree": 997,
+        "agree_std_median": 0.40886473655700684,
+        "disagree_std_median": 0.48779022693634033,
+        "auroc_std_predicts_disagreement": 0.6762411251712489,
+        "n_relabeled": 81,
+        "relabel_correct_before": 74,
+        "relabel_correct_after": 7,
+        "relabel_net_correctness_gain": -67
+      },
+      {
+        "n_agree": 4761,
+        "n_disagree": 520,
+        "agree_std_median": 0.43031373620033264,
+        "disagree_std_median": 0.5431379079818726,
+        "auroc_std_predicts_disagreement": 0.7192723732893866,
+        "n_relabeled": 52,
+        "relabel_correct_before": 27,
+        "relabel_correct_after": 25,
+        "relabel_net_correctness_gain": -2
+      }
+    ]
+  },
+  "DoS Slowhttptest": {
+    "delta_r": [
+      0.10823230348064138,
+      0.1093077825576848,
+      0.10823230348064138
+    ],
+    "seed_set_size_r": [
+      6904,
+      8068,
+      8824
+    ],
+    "seed_purity": 0.9112647325475974,
+    "overall_purity": 0.8917676965193586,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 2826,
+        "n_disagree": 2288,
+        "agree_std_median": 0.3425430953502655,
+        "disagree_std_median": 0.3344145119190216,
+        "auroc_std_predicts_disagreement": 0.48319341442350994,
+        "n_relabeled": 51,
+        "relabel_correct_before": 22,
+        "relabel_correct_after": 29,
+        "relabel_net_correctness_gain": 7
+      },
+      {
+        "n_agree": 1864,
+        "n_disagree": 1460,
+        "agree_std_median": 0.37859854102134705,
+        "disagree_std_median": 0.37603825330734253,
+        "auroc_std_predicts_disagreement": 0.5025993591627962,
+        "n_relabeled": 33,
+        "relabel_correct_before": 22,
+        "relabel_correct_after": 11,
+        "relabel_net_correctness_gain": -11
+      },
+      {
+        "n_agree": 771,
+        "n_disagree": 1389,
+        "agree_std_median": 0.4136382043361664,
+        "disagree_std_median": 0.4055159091949463,
+        "auroc_std_predicts_disagreement": 0.487731565132377,
+        "n_relabeled": 21,
+        "relabel_correct_before": 5,
+        "relabel_correct_after": 16,
+        "relabel_net_correctness_gain": 11
+      }
+    ]
+  },
+  "DoS slowloris": {
+    "delta_r": [
+      0.15907558979297062,
+      0.16148290804044294,
+      0.16148290804044294
+    ],
+    "seed_set_size_r": [
+      7010,
+      8185,
+      8933
+    ],
+    "seed_purity": 0.8629799619388783,
+    "overall_purity": 0.838517091959557,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 5052,
+        "n_disagree": 140,
+        "agree_std_median": 0.3743732273578644,
+        "disagree_std_median": 0.4070824384689331,
+        "auroc_std_predicts_disagreement": 0.6134868793122951,
+        "n_relabeled": 51,
+        "relabel_correct_before": 51,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -51
+      },
+      {
+        "n_agree": 3310,
+        "n_disagree": 65,
+        "agree_std_median": 0.36827096343040466,
+        "disagree_std_median": 0.4961570203304291,
+        "auroc_std_predicts_disagreement": 0.7806088775273067,
+        "n_relabeled": 27,
+        "relabel_correct_before": 26,
+        "relabel_correct_after": 1,
+        "relabel_net_correctness_gain": -25
+      },
+      {
+        "n_agree": 2157,
+        "n_disagree": 43,
+        "agree_std_median": 0.3993684947490692,
+        "disagree_std_median": 0.5759720206260681,
+        "auroc_std_predicts_disagreement": 0.8607238735970502,
+        "n_relabeled": 0,
+        "relabel_correct_before": 0,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": 0
+      }
+    ]
+  },
+  "FTP-Patator": {
+    "delta_r": [
+      0.09129997255511847,
+      0.09450187540023786,
+      0.09660598298417346
+    ],
+    "seed_set_size_r": [
+      7379,
+      8622,
+      9431
+    ],
+    "seed_purity": 0.9022373025129891,
+    "overall_purity": 0.9033940170158266,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 3854,
+        "n_disagree": 1611,
+        "agree_std_median": 0.35434120893478394,
+        "disagree_std_median": 0.3994068205356598,
+        "auroc_std_predicts_disagreement": 0.6200727548699474,
+        "n_relabeled": 54,
+        "relabel_correct_before": 54,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -54
+      },
+      {
+        "n_agree": 2622,
+        "n_disagree": 930,
+        "agree_std_median": 0.3762349486351013,
+        "disagree_std_median": 0.37156975269317627,
+        "auroc_std_predicts_disagreement": 0.4786369265848117,
+        "n_relabeled": 35,
+        "relabel_correct_before": 35,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -35
+      },
+      {
+        "n_agree": 1403,
+        "n_disagree": 906,
+        "agree_std_median": 0.4182731807231903,
+        "disagree_std_median": 0.386042982339859,
+        "auroc_std_predicts_disagreement": 0.410887108828606,
+        "n_relabeled": 23,
+        "relabel_correct_before": 23,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -23
+      }
+    ]
+  },
+  "PortScan + Infiltration": {
+    "delta_r": [
+      0.0398,
+      0.03984,
+      0.04008
+    ],
+    "seed_set_size_r": [
+      16861,
+      19632,
+      21468
+    ],
+    "seed_purity": 0.963527110117384,
+    "overall_purity": 0.95992,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 12258,
+        "n_disagree": 242,
+        "agree_std_median": 0.368858277797699,
+        "disagree_std_median": 0.39344149827957153,
+        "auroc_std_predicts_disagreement": 0.5709779344641178,
+        "n_relabeled": 111,
+        "relabel_correct_before": 6,
+        "relabel_correct_after": 105,
+        "relabel_net_correctness_gain": 99
+      },
+      {
+        "n_agree": 8031,
+        "n_disagree": 108,
+        "agree_std_median": 0.3552436828613281,
+        "disagree_std_median": 0.43771249055862427,
+        "auroc_std_predicts_disagreement": 0.7534899486711215,
+        "n_relabeled": 3,
+        "relabel_correct_before": 2,
+        "relabel_correct_after": 1,
+        "relabel_net_correctness_gain": -1
+      },
+      {
+        "n_agree": 5252,
+        "n_disagree": 116,
+        "agree_std_median": 0.3989599347114563,
+        "disagree_std_median": 0.4766799807548523,
+        "auroc_std_predicts_disagreement": 0.6922781469128344,
+        "n_relabeled": 10,
+        "relabel_correct_before": 8,
+        "relabel_correct_after": 2,
+        "relabel_net_correctness_gain": -6
+      }
+    ]
+  },
+  "SSH-Patator + Heartbleed": {
+    "delta_r": [
+      0.10170278637770898,
+      0.10479876160990712,
+      0.10681114551083591
+    ],
+    "seed_set_size_r": [
+      4361,
+      5095,
+      5573
+    ],
+    "seed_purity": 0.890184819666248,
+    "overall_purity": 0.8931888544891641,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 2118,
+        "n_disagree": 1112,
+        "agree_std_median": 0.35765397548675537,
+        "disagree_std_median": 0.3755006194114685,
+        "auroc_std_predicts_disagreement": 0.5424241343469134,
+        "n_relabeled": 32,
+        "relabel_correct_before": 29,
+        "relabel_correct_after": 3,
+        "relabel_net_correctness_gain": -26
+      },
+      {
+        "n_agree": 1194,
+        "n_disagree": 905,
+        "agree_std_median": 0.3622203469276428,
+        "disagree_std_median": 0.3729850947856903,
+        "auroc_std_predicts_disagreement": 0.5392487298370304,
+        "n_relabeled": 20,
+        "relabel_correct_before": 20,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -20
+      },
+      {
+        "n_agree": 566,
+        "n_disagree": 799,
+        "agree_std_median": 0.4197668433189392,
+        "disagree_std_median": 0.41313061118125916,
+        "auroc_std_predicts_disagreement": 0.4708248384685804,
+        "n_relabeled": 13,
+        "relabel_correct_before": 13,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -13
+      }
+    ]
+  },
+  "WebAttack BF + SQL + XSS": {
+    "delta_r": [
+      0.08842743817078862,
+      0.08959402706486234,
+      0.08889407372841811
+    ],
+    "seed_set_size_r": [
+      2893,
+      3380,
+      3548
+    ],
+    "seed_purity": 0.9495490417136415,
+    "overall_purity": 0.9111059262715819,
+    "uncertainty_diagnostics": [
+      {
+        "n_agree": 1352,
+        "n_disagree": 791,
+        "agree_std_median": 0.33557558059692383,
+        "disagree_std_median": 0.3408632278442383,
+        "auroc_std_predicts_disagreement": 0.4989293381907405,
+        "n_relabeled": 21,
+        "relabel_correct_before": 21,
+        "relabel_correct_after": 0,
+        "relabel_net_correctness_gain": -21
+      },
+      {
+        "n_agree": 632,
+        "n_disagree": 761,
+        "agree_std_median": 0.34556156396865845,
+        "disagree_std_median": 0.3516964614391327,
+        "auroc_std_predicts_disagreement": 0.4988294050133901,
+        "n_relabeled": 13,
+        "relabel_correct_before": 9,
+        "relabel_correct_after": 4,
+        "relabel_net_correctness_gain": -5
+      },
+      {
+        "n_agree": 160,
+        "n_disagree": 746,
+        "agree_std_median": 0.3402326703071594,
+        "disagree_std_median": 0.32862091064453125,
+        "auroc_std_predicts_disagreement": 0.45328418230563,
+        "n_relabeled": 9,
+        "relabel_correct_before": 3,
+        "relabel_correct_after": 6,
+        "relabel_net_correctness_gain": 3
+      }
+    ]
+  }
+}

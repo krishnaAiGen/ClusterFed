@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "PortScan",
+  "seed": 42,
+  "metrics": {
+    "family": "PortScan",
+    "n_zero_day_rows": 19992,
+    "zero_day_detection_rate": 0.0131,
+    "benign_fpr": 0.2071,
+    "selected_round": 199,
+    "zero_day_f1": 0.0237,
+    "zero_day_precision": 0.1287
+  },
+  "config": {
+    "family": "PortScan"
+  },
+  "wall_clock_s": 75.59005999565125,
+  "finished_at": "2026-09-10 02:02:26"
+}

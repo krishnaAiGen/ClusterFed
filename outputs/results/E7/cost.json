@@ -1,0 +1,38 @@
+{
+  "model": {
+    "parameters": 37002,
+    "size_kb_fp32": 144.5,
+    "architecture": "32-200-100-100-2"
+  },
+  "communication": {
+    "clients": 10,
+    "rounds": 200,
+    "per_round_total_mb": 2.96,
+    "per_client_per_round_kb": 289.1,
+    "total_traffic_mb": 592.0
+  },
+  "compute": {
+    "largest_node": {
+      "node": "DDoS",
+      "rows": 25000,
+      "local_train_s_per_round": 0.995
+    },
+    "smallest_node": {
+      "node": "Bot",
+      "rows": 3896,
+      "local_train_s_per_round": 0.054
+    }
+  },
+  "inference": {
+    "batch4096_ms": 3.08,
+    "per_flow_batch_us": 0.75,
+    "single_flow_ms": 0.029
+  },
+  "complexity_O": {
+    "stage0_feature_selection": "O(n k d) kNN graph + O(n d) scoring (subsampled n)",
+    "stage2_bootstrap": "O(n K d I) k-means + O(n K d) orientation/confidence",
+    "stage3_selection": "O(n log n) per-class quantiles",
+    "stage4_refinement_per_iter": "O(E n_seed d_mlp) train + O(T n_held d_mlp) MC-dropout",
+    "federated_per_round": "O(E n_k d_mlp) per client + O(P) aggregation/EMA"
+  }
+}

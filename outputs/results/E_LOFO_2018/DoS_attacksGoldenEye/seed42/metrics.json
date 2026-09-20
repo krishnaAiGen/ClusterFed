@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "DoS_attacksGoldenEye",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS attacks-GoldenEye",
+    "n_zero_day_rows": 20000,
+    "zero_day_detection_rate": 0.6475,
+    "benign_fpr": 0.0292,
+    "selected_round": 91,
+    "zero_day_f1": 0.7811,
+    "zero_day_precision": 0.984
+  },
+  "config": {
+    "family": "DoS attacks-GoldenEye"
+  },
+  "wall_clock_s": 99.89491701126099,
+  "finished_at": "2026-09-10 04:31:52"
+}

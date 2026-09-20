@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "FTPPatator",
+  "seed": 42,
+  "metrics": {
+    "family": "FTP-Patator",
+    "n_zero_day_rows": 5931,
+    "zero_day_detection_rate": 0.6716,
+    "benign_fpr": 0.2763,
+    "selected_round": 79,
+    "zero_day_f1": 0.6498,
+    "zero_day_precision": 0.6294
+  },
+  "config": {
+    "family": "FTP-Patator"
+  },
+  "wall_clock_s": 93.1883590221405,
+  "finished_at": "2026-09-10 01:58:03"
+}

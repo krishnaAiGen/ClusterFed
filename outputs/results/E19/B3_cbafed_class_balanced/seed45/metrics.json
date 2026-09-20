@@ -1,0 +1,15 @@
+{
+  "experiment": "E19",
+  "arm": "B3_cbafed_class_balanced",
+  "seed": 45,
+  "metrics": {
+    "federated_detection_avg_f1": 0.6271,
+    "federated_detection_avg_acc": 0.7022,
+    "selected_round": 53
+  },
+  "config": {
+    "baseline": "B3_cbafed_class_balanced"
+  },
+  "wall_clock_s": 324.6096179485321,
+  "finished_at": "2026-09-12 02:37:00"
+}

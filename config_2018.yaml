@@ -1,0 +1,94 @@
+seed: 42
+paths:
+  raw_dir: ./data/raw_2018
+  cache_dir: ./data/cache_2018
+  outputs_dir: ./outputs
+preprocess:
+  drop_duplicates: true
+  drop_zero_variance: true
+  nan_strategy: drop
+  scaler: minmax
+  label_column: Label
+  dataset: cicids2018
+  benign_per_file_cap: 60000
+  attack_per_label_file_cap: 60000
+partition:
+  num_nodes: 10
+  benign_per_node: 5000
+  benign_ratio_cap: 1.0
+  max_attack_per_node: 20000
+  dataset: cicids2018
+pca:
+  n_components: 2
+feature_selection:
+  method: hybrid
+  expected_selected: 32
+  laplacian_knn: 5
+  laplacian_sigma: null
+  laplacian_subsample: 20000
+  variance_threshold: null
+  rf_n_estimators: 200
+  rf_max_depth: null
+  rf_subsample: 50000
+  importance_threshold_T: 0.8
+clustering:
+  algorithm: kmeans
+  n_clusters: 16
+  n_init: 10
+  known_benign_n: 100
+  clustering_space: reduced
+threshold:
+  policy: per_class_adaptive
+  global_quantile: 0.5
+  min_quantile: 0.2
+  max_quantile: 0.8
+imbalance:
+  loss: focal
+  focal_gamma: 2.0
+  logit_adjustment_tau: 1.0
+refinement:
+  iterations: 0
+  local_epochs_per_iteration: 5
+  batch_size: 64
+  learning_rate: 0.001
+  dropout_p: 0.2
+  mc_dropout_passes: 10
+  uncertainty_threshold_tau_u: 1.0
+  relabel_confidence_threshold: 0.95
+  relabel_cluster_conf_quantile: 0.25
+  relabel_max_fraction_per_iteration: 0.01
+  max_promote_fraction_per_iteration: 0.34
+federated:
+  num_local_nodes: 10
+  num_global_nodes: 1
+  communication_rounds: 200
+  train_on: seed
+  aggregation: fedavg_weighted
+  fedprox_mu: 0.1
+  optimizer: adam
+  learning_rate: 0.0003
+  model_selection: best_train_acc
+  server_ema_decay: 0.95
+  local_epochs: 1
+  batch_size: 64
+  test_split: 0.2
+  loss: binary_cross_entropy
+  eval_every: 1
+model:
+  input_dim: auto
+  hidden_layers:
+  - 200
+  - 100
+  - 100
+  hidden_activation: tanh
+  output_dim: 2
+  output_activation: sigmoid
+eval:
+  metrics:
+  - precision
+  - recall
+  - accuracy
+  - f1
+  average: binary
+features:
+  use_reduced_for_federated: true

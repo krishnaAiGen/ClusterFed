@@ -1,0 +1,72 @@
+{
+  "client1: DDoS + DoS GoldenEye + DoS Hulk...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9052460349735665,
+    "overall_purity": 0.92432,
+    "uncertainty_diagnostics": []
+  },
+  "client2: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9916579770594369,
+    "overall_purity": 0.8288274370461919,
+    "uncertainty_diagnostics": []
+  },
+  "client3: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.7663650878126663,
+    "overall_purity": 0.82924,
+    "uncertainty_diagnostics": []
+  },
+  "client4: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8517322372284204,
+    "overall_purity": 0.8901185770750988,
+    "uncertainty_diagnostics": []
+  },
+  "client5: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9488667772249861,
+    "overall_purity": 0.93032,
+    "uncertainty_diagnostics": []
+  },
+  "client6: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.798890796249835,
+    "overall_purity": 0.87224,
+    "uncertainty_diagnostics": []
+  },
+  "client7: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9003362474781439,
+    "overall_purity": 0.94,
+    "uncertainty_diagnostics": []
+  },
+  "client8: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9287215746225874,
+    "overall_purity": 0.8454550714575015,
+    "uncertainty_diagnostics": []
+  },
+  "client9: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9143359005539792,
+    "overall_purity": 0.94292,
+    "uncertainty_diagnostics": []
+  },
+  "client10: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8628680479825518,
+    "overall_purity": 0.91164,
+    "uncertainty_diagnostics": []
+  }
+}

@@ -1,0 +1,127 @@
+# ClusterFed v2 configuration.
+# Values the PRD states are marked "(stated)"; values it leaves open are marked
+# "(ASSUMPTION)" and are surfaced at runtime (same convention as v1).
+
+seed: 42
+
+paths:
+  raw_dir: ../ClusterFed v1/data/raw    # read-only: v1's CICIDS2017 CSVs
+  cache_dir: ./data/cache               # v2's own preprocessing cache
+  outputs_dir: ./outputs
+
+preprocess:
+  drop_duplicates: true
+  drop_zero_variance: true
+  nan_strategy: drop            # drop | median_impute
+  scaler: minmax                # Xnorm = (X - Xmin)/(Xmax - Xmin), unchanged from v1
+  label_column: Label
+
+partition:
+  num_nodes: 10                 # (PRD 3.1) kept identical to v1 for comparability
+  benign_per_node: 5000
+  benign_ratio_cap: 1.0
+  max_attack_per_node: 20000    # ASSUMPTION (was null): caps mega-nodes (Hulk 172k, DDoS 128k,
+                                # PortScan 90k) so FedAvg client weights flatten from 45:1 to ~6:1 --
+                                # without this the global model underserves small clients (Entry 14);
+                                # also edge-realistic and ~3x faster
+
+pca:
+  n_components: 2               # kept for visualization only (PRD 4.2); clustering no longer uses this space
+
+feature_selection:              # Stage 0 (PRD 4.1) -- fixes R2.1: no ground-truth labels
+  method: hybrid                # hybrid (v2.1 default: interleaved laplacian+variance, both label-free)
+                                # | laplacian | rf_gini (v1 legacy, ablation A1) | variance | autoencoder
+  expected_selected: 32         # (stated) same target dimensionality as v1
+  laplacian_knn: 5              # ASSUMPTION: k-NN graph neighbors for the affinity matrix
+  laplacian_sigma: null         # ASSUMPTION: heat-kernel bandwidth; null = median pairwise distance (auto)
+  laplacian_subsample: 20000    # ASSUMPTION: rows used to build the affinity graph (speed; null = all)
+  variance_threshold: null      # used only when method: variance; null = pick top expected_selected by variance
+  rf_n_estimators: 200          # legacy RF knobs, used only when method: rf_gini
+  rf_max_depth: null
+  rf_subsample: 50000
+  importance_threshold_T: 0.8   # legacy RF cumulative-importance threshold
+
+clustering:                     # Stage 2 (PRD 4.3): benign/malicious bootstrap
+  algorithm: kmeans             # pluggable: kmeans | dbscan | spectral | gmm (ablation A2)
+  n_clusters: 12                # v2.1 default: over-cluster + benign-density orientation.
+                                # 2 = v1-legacy binary path (ablation). Rationale: k=2 splits by
+                                # mass, not class -- on 25:1 attack:benign nodes half the attack
+                                # mass lands in the "benign" cluster (DDoS P=0.98/R=0.45).
+  n_init: 10
+  known_benign_n: 100           # ASSUMPTION: # known-benign rows anchoring orientation (unchanged from v1)
+  clustering_space: reduced     # reduced (32-feature, PRD 4.2 default) | pca2d (v1 legacy, ablation A6) | autoencoder16
+
+threshold:                      # Stage 3 (PRD 4.4): class-balanced adaptive selection
+  policy: per_class_adaptive    # per_class_adaptive (default) | global (ablation A4)
+  global_quantile: 0.5          # used only when policy: global -- fraction of points kept by confidence
+  min_quantile: 0.2             # ASSUMPTION: floor per-class keep-quantile so the rarer-predicted class isn't fully starved
+  max_quantile: 0.8             # ASSUMPTION: ceiling per-class keep-quantile
+
+imbalance:                      # Stage 3 second imbalance defense (PRD 4.4, ablation A5)
+  loss: focal                   # focal (default) | bce | logit_adjusted
+  focal_gamma: 2.0              # ASSUMPTION (Lin et al. default)
+  logit_adjustment_tau: 1.0     # ASSUMPTION (Menon et al. default), used only when loss: logit_adjusted
+
+refinement:                     # Stage 4 (PRD 4.5): iterative self-training
+  iterations: 3                 # R (stated ~3)
+  local_epochs_per_iteration: 5 # ASSUMPTION: epochs training the refinement MLP each iteration r
+  batch_size: 64
+  learning_rate: 0.001
+  dropout_p: 0.2                # ASSUMPTION: MC-Dropout rate for the refinement-phase MLP
+  mc_dropout_passes: 10         # (stated) T=10 stochastic passes
+  uncertainty_threshold_tau_u: 1.0     # ASSUMPTION: promote only if predictive logit-std is below this
+                                       # (measured on pre-sigmoid logits, not probabilities -- sigmoid
+                                       # saturation collapses probability-space std to ~0 once training
+                                       # pushes logits large, which silently disables this filter)
+  relabel_confidence_threshold: 0.95  # ASSUMPTION: model-prediction confidence needed to relabel a disagreement
+                                      # (raised from 0.8: with a strong bootstrap, model disagreements
+                                      # are usually wrong -- Entry 11)
+  relabel_cluster_conf_quantile: 0.25 # ASSUMPTION: model may only override the cluster on points whose
+                                      # cluster-confidence is in the bottom quartile (asymmetric trust;
+                                      # Entry 8/11 measured high-cluster-conf relabels as net-harmful)
+  relabel_max_fraction_per_iteration: 0.01  # ASSUMPTION: hard cap on relabel volume per iteration,
+                                            # ranked by model confidence -- "first, do no harm"
+  max_promote_fraction_per_iteration: 0.34   # ASSUMPTION: caps how much of the held-out set one
+                                              # iteration can promote (~1/R), so refinement stays
+                                              # genuinely iterative even if tau_u is miscalibrated
+
+federated:
+  num_local_nodes: 10           # (stated)
+  num_global_nodes: 1           # (stated)
+  communication_rounds: 200     # (stated)
+  train_on: seed                # seed (v2.1 default: train each client only on its curated
+                                # high-purity seed set, PRD 4.4 "ambiguous points are held out")
+                                # | all (every row with its refined label)
+  aggregation: fedavg_weighted  # (stated); fedprox_mu > 0 switches on the FedProx proximal term (ablation A7)
+  fedprox_mu: 0.01              # PRD 4.5 non-IID-robust arm (was 0.0): plain FedAvg's trajectory
+                                # peaks early then degrades under client drift on the one-attack-
+                                # per-client partition (Entry 15); {0.0, 0.1} are the other A7 levels
+  optimizer: adam               # (stated)
+  learning_rate: 0.0003         # ASSUMPTION (paper silent; 1e-3 with fresh Adam state each round
+                                # oscillated wildly on non-IID clients -- Entry 13)
+  model_selection: best_train_acc   # ASSUMPTION (paper silent): return the round with best pooled
+                                    # TRAIN accuracy (pseudo-labels only -- unsupervised criterion,
+                                    # no test data touched) instead of whatever round R lands on
+                                    # | last (v1 behavior)
+  server_ema_decay: 0.95        # ASSUMPTION (paper silent): server-side exponential moving average
+                                # of global weights (~20-round horizon) -- smooths the non-IID FedAvg
+                                # oscillation; 0 disables (v1 behavior)
+  local_epochs: 1               # ASSUMPTION (paper silent)
+  batch_size: 64                # ASSUMPTION (paper silent)
+  test_split: 0.2               # ASSUMPTION: per-node holdout for Table II
+  loss: binary_cross_entropy    # (stated) -- the federated classifier itself; imbalance.loss governs refinement only
+  eval_every: 1
+
+model:                          # (stated) architecture, unchanged from v1
+  input_dim: auto
+  hidden_layers: [200, 100, 100]
+  hidden_activation: tanh
+  output_dim: 2
+  output_activation: sigmoid
+
+eval:
+  metrics: [precision, recall, accuracy, f1]
+  average: binary
+
+features:
+  use_reduced_for_federated: true

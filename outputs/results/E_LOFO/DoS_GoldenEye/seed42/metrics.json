@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "DoS_GoldenEye",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS GoldenEye",
+    "n_zero_day_rows": 10286,
+    "zero_day_detection_rate": 0.9929,
+    "benign_fpr": 0.2374,
+    "selected_round": 172,
+    "zero_day_f1": 0.9071,
+    "zero_day_precision": 0.8349
+  },
+  "config": {
+    "family": "DoS GoldenEye"
+  },
+  "wall_clock_s": 88.98555493354797,
+  "finished_at": "2026-09-10 01:52:18"
+}

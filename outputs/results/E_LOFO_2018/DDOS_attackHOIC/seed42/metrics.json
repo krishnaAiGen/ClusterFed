@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "DDOS_attackHOIC",
+  "seed": 42,
+  "metrics": {
+    "family": "DDOS attack-HOIC",
+    "n_zero_day_rows": 20000,
+    "zero_day_detection_rate": 0.6789,
+    "benign_fpr": 0.0515,
+    "selected_round": 148,
+    "zero_day_f1": 0.7999,
+    "zero_day_precision": 0.9733
+  },
+  "config": {
+    "family": "DDOS attack-HOIC"
+  },
+  "wall_clock_s": 100.28703117370605,
+  "finished_at": "2026-09-10 04:26:12"
+}

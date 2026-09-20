@@ -1,0 +1,25 @@
+{
+  "experiment": "E1",
+  "arm": "final_r0_mu10_k16",
+  "seed": 46,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.929,
+    "labeling_refined_avg_f1": 0.929,
+    "federated_detection_avg_f1": 0.8686,
+    "federated_detection_avg_acc": 0.8462,
+    "selected_round": 32
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 0,
+      "federated.fedprox_mu": 0.1,
+      "clustering.n_clusters": 16
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 89.5951919555664,
+  "finished_at": "2026-09-09 22:27:42"
+}

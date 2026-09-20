@@ -1,0 +1,20 @@
+{
+  "experiment": "E3",
+  "arm": "A1_rf_gini_v1legacy",
+  "seed": 44,
+  "metrics": {
+    "feature_selection_method": "rf_gini",
+    "selected_feature_count": 24,
+    "labeling_raw_avg_f1": 0.9158,
+    "labeling_refined_avg_f1": 0.9111
+  },
+  "config": {
+    "overrides": {
+      "feature_selection.method": "rf_gini"
+    },
+    "label_source": "pseudo",
+    "skip_federated": true
+  },
+  "wall_clock_s": 21.197043895721436,
+  "finished_at": "2026-09-09 19:04:49"
+}

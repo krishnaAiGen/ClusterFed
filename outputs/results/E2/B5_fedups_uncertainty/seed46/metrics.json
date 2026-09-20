@@ -1,0 +1,15 @@
+{
+  "experiment": "E2",
+  "arm": "B5_fedups_uncertainty",
+  "seed": 46,
+  "metrics": {
+    "federated_detection_avg_f1": 0.8682,
+    "federated_detection_avg_acc": 0.8459,
+    "selected_round": 2
+  },
+  "config": {
+    "baseline": "B5_fedups_uncertainty"
+  },
+  "wall_clock_s": 540.5902030467987,
+  "finished_at": "2026-09-10 00:36:44"
+}

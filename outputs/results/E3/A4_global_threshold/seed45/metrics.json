@@ -1,0 +1,23 @@
+{
+  "experiment": "E3",
+  "arm": "A4_global_threshold",
+  "seed": 45,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.929,
+    "labeling_refined_avg_f1": 0.9249,
+    "federated_detection_avg_f1": 0.8185,
+    "federated_detection_avg_acc": 0.7903,
+    "selected_round": 16
+  },
+  "config": {
+    "overrides": {
+      "threshold.policy": "global"
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 285.24073791503906,
+  "finished_at": "2026-09-10 05:38:19"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "E1",
+  "arm": "upper_bound_supervised_curated",
+  "seed": 42,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9191,
+    "labeling_refined_avg_f1": 0.918,
+    "federated_detection_avg_f1": 0.532,
+    "federated_detection_avg_acc": 0.7104,
+    "selected_round": 191
+  },
+  "config": {
+    "overrides": {},
+    "label_source": "true",
+    "skip_federated": false
+  },
+  "wall_clock_s": 256.96629786491394,
+  "finished_at": "2026-09-09 18:44:38"
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "DoS_attacksSlowloris",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS attacks-Slowloris",
+    "n_zero_day_rows": 9908,
+    "zero_day_detection_rate": 0.2393,
+    "benign_fpr": 0.0301,
+    "selected_round": 177,
+    "zero_day_f1": 0.3795,
+    "zero_day_precision": 0.9165
+  },
+  "config": {
+    "family": "DoS attacks-Slowloris"
+  },
+  "wall_clock_s": 105.9783182144165,
+  "finished_at": "2026-09-10 04:37:25"
+}

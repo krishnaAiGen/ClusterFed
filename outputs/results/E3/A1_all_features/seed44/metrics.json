@@ -1,0 +1,21 @@
+{
+  "experiment": "E3",
+  "arm": "A1_all_features",
+  "seed": 44,
+  "metrics": {
+    "feature_selection_method": "variance",
+    "selected_feature_count": 70,
+    "labeling_raw_avg_f1": 0.9227,
+    "labeling_refined_avg_f1": 0.9221
+  },
+  "config": {
+    "overrides": {
+      "feature_selection.method": "variance",
+      "feature_selection.expected_selected": 70
+    },
+    "label_source": "pseudo",
+    "skip_federated": true
+  },
+  "wall_clock_s": 19.883867979049683,
+  "finished_at": "2026-09-09 19:05:58"
+}

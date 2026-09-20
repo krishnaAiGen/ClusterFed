@@ -1,0 +1,31 @@
+{
+  "experiment": "E1",
+  "arm": "lower_bound_v1",
+  "seed": 46,
+  "metrics": {
+    "feature_selection_method": "rf_gini",
+    "selected_feature_count": 25,
+    "labeling_raw_avg_f1": 0.7862,
+    "labeling_refined_avg_f1": 0.7862,
+    "federated_detection_avg_f1": 0.7212,
+    "federated_detection_avg_acc": 0.7056,
+    "selected_round": 200
+  },
+  "config": {
+    "overrides": {
+      "feature_selection.method": "rf_gini",
+      "clustering.n_clusters": 2,
+      "clustering.clustering_space": "pca2d",
+      "refinement.iterations": 0,
+      "federated.train_on": "all",
+      "federated.server_ema_decay": 0,
+      "federated.model_selection": "last",
+      "federated.learning_rate": 0.001,
+      "federated.fedprox_mu": 0
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 276.6320331096649,
+  "finished_at": "2026-09-09 18:40:17"
+}

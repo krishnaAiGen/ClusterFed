@@ -1,0 +1,37 @@
+{
+  "experiment": "E17",
+  "arm": "legacy",
+  "seed": 49,
+  "metrics": {
+    "feature_selection_method": "rf_gini",
+    "selected_feature_count": 25,
+    "labeling_raw_avg_f1": 0.7906,
+    "labeling_refined_avg_f1": 0.7906,
+    "rho_before": 0.16472,
+    "rho_after": 0.16472,
+    "federated_detection_avg_f1": 0.7843,
+    "federated_detection_avg_acc": 0.754,
+    "selected_round": 200,
+    "uplink_bytes_per_round": 142408,
+    "downlink_bytes_per_round": 142408,
+    "client_fraction": 1.0,
+    "kb_per_client_per_round": 278.141
+  },
+  "config": {
+    "overrides": {
+      "feature_selection.method": "rf_gini",
+      "clustering.n_clusters": 2,
+      "clustering.clustering_space": "pca2d",
+      "refinement.iterations": 0,
+      "federated.train_on": "all",
+      "federated.server_ema_decay": 0,
+      "federated.model_selection": "last",
+      "federated.learning_rate": 0.001,
+      "federated.fedprox_mu": 0
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 265.04835987091064,
+  "finished_at": "2026-09-12 01:07:26"
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "Brute_Force_Web",
+  "seed": 42,
+  "metrics": {
+    "family": "Brute Force -Web",
+    "n_zero_day_rows": 570,
+    "zero_day_detection_rate": 0.4632,
+    "benign_fpr": 0.0524,
+    "selected_round": 68,
+    "zero_day_f1": 0.4371,
+    "zero_day_precision": 0.4138
+  },
+  "config": {
+    "family": "Brute Force -Web"
+  },
+  "wall_clock_s": 134.1405382156372,
+  "finished_at": "2026-09-10 04:22:22"
+}

@@ -1,0 +1,72 @@
+{
+  "client1: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9951386903059766,
+    "overall_purity": 0.7265921916388345,
+    "uncertainty_diagnostics": []
+  },
+  "client2: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8480531813865148,
+    "overall_purity": 0.8974,
+    "uncertainty_diagnostics": []
+  },
+  "client3: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9930565814743685,
+    "overall_purity": 0.93472,
+    "uncertainty_diagnostics": []
+  },
+  "client4: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8454275694631778,
+    "overall_purity": 0.89036,
+    "uncertainty_diagnostics": []
+  },
+  "client5: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9508359308586002,
+    "overall_purity": 0.91188,
+    "uncertainty_diagnostics": []
+  },
+  "client6: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.990466412437665,
+    "overall_purity": 0.93032,
+    "uncertainty_diagnostics": []
+  },
+  "client7: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9513389000863807,
+    "overall_purity": 0.91656,
+    "uncertainty_diagnostics": []
+  },
+  "client8: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.782608695652174,
+    "overall_purity": 0.83908,
+    "uncertainty_diagnostics": []
+  },
+  "client9: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.844896331738437,
+    "overall_purity": 0.8946,
+    "uncertainty_diagnostics": []
+  },
+  "client10: Bot + DDoS + DoS GoldenEye...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.7504953110553427,
+    "overall_purity": 0.83244,
+    "uncertainty_diagnostics": []
+  }
+}

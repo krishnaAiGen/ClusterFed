@@ -1,0 +1,33 @@
+{
+  "experiment": "E22",
+  "arm": "curated",
+  "seed": 42,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9306,
+    "labeling_refined_avg_f1": 0.9306,
+    "rho_before": 0.00512,
+    "rho_after": 0.00512,
+    "federated_detection_avg_f1": 0.8592,
+    "federated_detection_avg_acc": 0.8368,
+    "selected_round": 80,
+    "uplink_bytes_per_round": 148008,
+    "downlink_bytes_per_round": 148008,
+    "client_fraction": 1.0,
+    "kb_per_client_per_round": 289.078,
+    "total_train_rows": 29963
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 0,
+      "federated.fedprox_mu": 0.1,
+      "clustering.n_clusters": 16,
+      "federated.train_on": "seed"
+    },
+    "label_source": "true",
+    "skip_federated": false
+  },
+  "wall_clock_s": 110.81351804733276,
+  "finished_at": "2026-09-12 11:06:44"
+}

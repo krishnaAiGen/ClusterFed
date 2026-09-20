@@ -1,0 +1,27 @@
+# Datasets: never committed. See README for download instructions.
+data/
+!data/.gitkeep
+
+# Derived artefacts
+outputs/figures/
+outputs/models/
+outputs/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store

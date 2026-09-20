@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "DoS_attacksHulk",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS attacks-Hulk",
+    "n_zero_day_rows": 20000,
+    "zero_day_detection_rate": 1.0,
+    "benign_fpr": 0.0357,
+    "selected_round": 147,
+    "zero_day_f1": 0.9936,
+    "zero_day_precision": 0.9874
+  },
+  "config": {
+    "family": "DoS attacks-Hulk"
+  },
+  "wall_clock_s": 109.67266511917114,
+  "finished_at": "2026-09-10 04:33:42"
+}

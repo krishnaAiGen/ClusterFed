@@ -1,0 +1,352 @@
+{
+  "client1: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9836674444074092,
+    "uncertainty_diagnostics": []
+  },
+  "client2: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9949031600407747,
+    "overall_purity": 0.9419722103201322,
+    "uncertainty_diagnostics": []
+  },
+  "client3: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9963160049119935,
+    "overall_purity": 0.9351778172247046,
+    "uncertainty_diagnostics": []
+  },
+  "client4: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9920359403716561,
+    "overall_purity": 0.9383607761522923,
+    "uncertainty_diagnostics": []
+  },
+  "client5: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9951298701298701,
+    "overall_purity": 0.9542755707902307,
+    "uncertainty_diagnostics": []
+  },
+  "client6: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9953089944931675,
+    "overall_purity": 0.9424006855603844,
+    "uncertainty_diagnostics": []
+  },
+  "client7: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9946895424836601,
+    "overall_purity": 0.9366468751912835,
+    "uncertainty_diagnostics": []
+  },
+  "client8: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9932872253864931,
+    "overall_purity": 0.9492531831537708,
+    "uncertainty_diagnostics": []
+  },
+  "client9: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9955239064089522,
+    "overall_purity": 0.9473555337904016,
+    "uncertainty_diagnostics": []
+  },
+  "client10: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8949145389322641,
+    "overall_purity": 0.9442510915648927,
+    "uncertainty_diagnostics": []
+  },
+  "client11: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8936714255273812,
+    "overall_purity": 0.9567170790356262,
+    "uncertainty_diagnostics": []
+  },
+  "client12: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.907258064516129,
+    "overall_purity": 0.9538695184458648,
+    "uncertainty_diagnostics": []
+  },
+  "client13: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9954032595068951,
+    "overall_purity": 0.9677276466493704,
+    "uncertainty_diagnostics": []
+  },
+  "client14: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9086854958589934,
+    "overall_purity": 0.954502309688034,
+    "uncertainty_diagnostics": []
+  },
+  "client15: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9000211371803002,
+    "overall_purity": 0.9469088147820034,
+    "uncertainty_diagnostics": []
+  },
+  "client16: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9026042769426212,
+    "overall_purity": 0.9463393026640511,
+    "uncertainty_diagnostics": []
+  },
+  "client17: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.995405179615706,
+    "overall_purity": 0.9758906536733531,
+    "uncertainty_diagnostics": []
+  },
+  "client18: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9945640811206355,
+    "overall_purity": 0.9595646396253876,
+    "uncertainty_diagnostics": []
+  },
+  "client19: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9943597242531858,
+    "overall_purity": 0.9741188381952793,
+    "uncertainty_diagnostics": []
+  },
+  "client20: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9109880749574105,
+    "overall_purity": 0.952097702967791,
+    "uncertainty_diagnostics": []
+  },
+  "client21: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9924812030075187,
+    "overall_purity": 0.9727266974625072,
+    "uncertainty_diagnostics": []
+  },
+  "client22: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9947786131996659,
+    "overall_purity": 0.9737391634499779,
+    "uncertainty_diagnostics": []
+  },
+  "client23: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.902547770700637,
+    "overall_purity": 0.9479845598936911,
+    "uncertainty_diagnostics": []
+  },
+  "client24: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9039115646258503,
+    "overall_purity": 0.9546892798379952,
+    "uncertainty_diagnostics": []
+  },
+  "client25: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9037130270610447,
+    "overall_purity": 0.9223516010631566,
+    "uncertainty_diagnostics": []
+  },
+  "client26: DoS GoldenEye": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9842366659468798,
+    "overall_purity": 0.9539447860787649,
+    "uncertainty_diagnostics": []
+  },
+  "client27: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9733097454041997,
+    "uncertainty_diagnostics": []
+  },
+  "client28: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9994772608468374,
+    "overall_purity": 0.9763864318129375,
+    "uncertainty_diagnostics": []
+  },
+  "client29: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9997403946002077,
+    "overall_purity": 0.9676947927082532,
+    "uncertainty_diagnostics": []
+  },
+  "client30: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.99974140160331,
+    "overall_purity": 0.9631566802553649,
+    "uncertainty_diagnostics": []
+  },
+  "client31: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9997392438070404,
+    "overall_purity": 0.9737712483655103,
+    "uncertainty_diagnostics": []
+  },
+  "client32: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9997447677386422,
+    "overall_purity": 0.9380047688639336,
+    "uncertainty_diagnostics": []
+  },
+  "client33: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.999738425320429,
+    "overall_purity": 0.9769248519344665,
+    "uncertainty_diagnostics": []
+  },
+  "client34: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.995417515274949,
+    "overall_purity": 0.9301592185216522,
+    "uncertainty_diagnostics": []
+  },
+  "client35: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.997942915916688,
+    "overall_purity": 0.9541573725098069,
+    "uncertainty_diagnostics": []
+  },
+  "client36: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9997397866250325,
+    "overall_purity": 0.9713098992385201,
+    "uncertainty_diagnostics": []
+  },
+  "client37: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9780016921775248,
+    "uncertainty_diagnostics": []
+  },
+  "client38: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9658487808630105,
+    "uncertainty_diagnostics": []
+  },
+  "client39: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9690023844319667,
+    "uncertainty_diagnostics": []
+  },
+  "client40: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9668461538461538,
+    "uncertainty_diagnostics": []
+  },
+  "client41: FTP-Patator": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9540755649071448,
+    "uncertainty_diagnostics": []
+  },
+  "client42: DoS slowloris": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.8492055849783341,
+    "uncertainty_diagnostics": []
+  },
+  "client43: DoS Slowhttptest": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9355690262025812,
+    "uncertainty_diagnostics": []
+  },
+  "client44: SSH-Patator": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9389561975768872,
+    "uncertainty_diagnostics": []
+  },
+  "client45: Bot": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9869109947643979,
+    "overall_purity": 0.8554928131416838,
+    "uncertainty_diagnostics": []
+  },
+  "client46: Web Attack - Brute Force": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.996969696969697,
+    "overall_purity": 0.923469387755102,
+    "uncertainty_diagnostics": []
+  },
+  "client47: Web Attack - XSS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9368029739776952,
+    "overall_purity": 0.9478527607361963,
+    "uncertainty_diagnostics": []
+  },
+  "client48: Infiltration": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9444444444444444,
+    "overall_purity": 0.8888888888888888,
+    "uncertainty_diagnostics": []
+  },
+  "client49: Web Attack - Sql Injection": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 0.9761904761904762,
+    "uncertainty_diagnostics": []
+  },
+  "client50: Heartbleed": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 1.0,
+    "overall_purity": 1.0,
+    "uncertainty_diagnostics": []
+  }
+}

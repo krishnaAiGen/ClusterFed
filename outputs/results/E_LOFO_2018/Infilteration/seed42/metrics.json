@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "Infilteration",
+  "seed": 42,
+  "metrics": {
+    "family": "Infilteration",
+    "n_zero_day_rows": 13074,
+    "zero_day_detection_rate": 0.114,
+    "benign_fpr": 0.0342,
+    "selected_round": 55,
+    "zero_day_f1": 0.2014,
+    "zero_day_precision": 0.8589
+  },
+  "config": {
+    "family": "Infilteration"
+  },
+  "wall_clock_s": 115.78790831565857,
+  "finished_at": "2026-09-10 04:41:29"
+}

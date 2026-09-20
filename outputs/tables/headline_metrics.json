@@ -1,0 +1,10 @@
+{
+  "labeling_raw_avg_f1": 0.9191,
+  "labeling_refined_avg_f1": 0.918,
+  "labeling_refinement_gain": -0.0011,
+  "federated_detection_avg_f1": 0.8266,
+  "federated_detection_avg_acc": 0.8042,
+  "feature_selection_method": "hybrid",
+  "selected_feature_count": 32,
+  "seed": 42
+}

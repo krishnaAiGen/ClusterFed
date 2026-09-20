@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "Heartbleed",
+  "seed": 42,
+  "metrics": {
+    "family": "Heartbleed",
+    "n_zero_day_rows": 11,
+    "zero_day_detection_rate": 1.0,
+    "benign_fpr": 0.2839,
+    "selected_round": 92,
+    "zero_day_f1": 0.009,
+    "zero_day_precision": 0.0045
+  },
+  "config": {
+    "family": "Heartbleed"
+  },
+  "wall_clock_s": 91.02348494529724,
+  "finished_at": "2026-09-10 01:59:34"
+}

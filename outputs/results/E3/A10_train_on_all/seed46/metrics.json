@@ -1,0 +1,23 @@
+{
+  "experiment": "E3",
+  "arm": "A10_train_on_all",
+  "seed": 46,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9183,
+    "labeling_refined_avg_f1": 0.9148,
+    "federated_detection_avg_f1": 0.8321,
+    "federated_detection_avg_acc": 0.8092,
+    "selected_round": 22
+  },
+  "config": {
+    "overrides": {
+      "federated.train_on": "all"
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 313.6016409397125,
+  "finished_at": "2026-09-10 06:11:49"
+}

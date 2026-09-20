@@ -1,0 +1,25 @@
+{
+  "experiment": "E3",
+  "arm": "A3_naive_selftraining",
+  "seed": 46,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9183,
+    "labeling_refined_avg_f1": 0.8295,
+    "federated_detection_avg_f1": 0.814,
+    "federated_detection_avg_acc": 0.7859,
+    "selected_round": 1
+  },
+  "config": {
+    "overrides": {
+      "refinement.relabel_confidence_threshold": 0.8,
+      "refinement.relabel_cluster_conf_quantile": 1.0,
+      "refinement.relabel_max_fraction_per_iteration": 0.34
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 298.06963896751404,
+  "finished_at": "2026-09-10 05:33:31"
+}

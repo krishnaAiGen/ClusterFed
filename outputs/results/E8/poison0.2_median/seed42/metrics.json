@@ -1,0 +1,27 @@
+{
+  "experiment": "E8",
+  "arm": "poison0.2_median",
+  "seed": 42,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9306,
+    "labeling_refined_avg_f1": 0.9306,
+    "federated_detection_avg_f1": 0.5711,
+    "federated_detection_avg_acc": 0.6453,
+    "selected_round": 194
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 0,
+      "federated.fedprox_mu": 0.1,
+      "clustering.n_clusters": 16,
+      "federated.poison_fraction": 0.2,
+      "federated.aggregation_method": "coordinate_median"
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 105.92693710327148,
+  "finished_at": "2026-09-10 02:25:34"
+}

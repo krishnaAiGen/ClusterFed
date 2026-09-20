@@ -1,0 +1,37 @@
+{
+  "client1: DoS Hulk": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9962279966471081,
+    "overall_purity": 0.98252,
+    "uncertainty_diagnostics": []
+  },
+  "client2: DDoS": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.999859392575928,
+    "overall_purity": 0.98032,
+    "uncertainty_diagnostics": []
+  },
+  "client3: PortScan": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.9962083976969527,
+    "overall_purity": 0.95836,
+    "uncertainty_diagnostics": []
+  },
+  "client4: DoS GoldenEye + DoS Slowhttptest + Heartbleed...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8431221020092736,
+    "overall_purity": 0.8153908942499547,
+    "uncertainty_diagnostics": []
+  },
+  "client5: Bot + DoS slowloris + FTP-Patator...": {
+    "delta_r": [],
+    "seed_set_size_r": [],
+    "seed_purity": 0.8518241626794258,
+    "overall_purity": 0.8700248475265416,
+    "uncertainty_diagnostics": []
+  }
+}

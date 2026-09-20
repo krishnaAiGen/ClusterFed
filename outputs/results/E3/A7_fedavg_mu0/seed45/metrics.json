@@ -1,0 +1,23 @@
+{
+  "experiment": "E3",
+  "arm": "A7_fedavg_mu0",
+  "seed": 45,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.929,
+    "labeling_refined_avg_f1": 0.9252,
+    "federated_detection_avg_f1": 0.8249,
+    "federated_detection_avg_acc": 0.7995,
+    "selected_round": 18
+  },
+  "config": {
+    "overrides": {
+      "federated.fedprox_mu": 0
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 196.40759229660034,
+  "finished_at": "2026-09-10 06:15:08"
+}

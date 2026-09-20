@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "DoS_attacksSlowHTTPTest",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS attacks-SlowHTTPTest",
+    "n_zero_day_rows": 52,
+    "zero_day_detection_rate": 1.0,
+    "benign_fpr": 0.026,
+    "selected_round": 145,
+    "zero_day_f1": 0.3599,
+    "zero_day_precision": 0.2194
+  },
+  "config": {
+    "family": "DoS attacks-SlowHTTPTest"
+  },
+  "wall_clock_s": 117.89818716049194,
+  "finished_at": "2026-09-10 04:35:39"
+}

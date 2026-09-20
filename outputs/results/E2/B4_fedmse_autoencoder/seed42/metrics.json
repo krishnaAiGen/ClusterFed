@@ -1,0 +1,15 @@
+{
+  "experiment": "E2",
+  "arm": "B4_fedmse_autoencoder",
+  "seed": 42,
+  "metrics": {
+    "federated_detection_avg_f1": 0.4318,
+    "federated_detection_avg_acc": 0.6253,
+    "selected_round": -1
+  },
+  "config": {
+    "baseline": "B4_fedmse_autoencoder"
+  },
+  "wall_clock_s": 2.031897783279419,
+  "finished_at": "2026-09-09 23:07:55"
+}

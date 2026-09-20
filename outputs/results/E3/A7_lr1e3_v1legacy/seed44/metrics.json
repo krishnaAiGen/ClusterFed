@@ -1,0 +1,23 @@
+{
+  "experiment": "E3",
+  "arm": "A7_lr1e3_v1legacy",
+  "seed": 44,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9263,
+    "labeling_refined_avg_f1": 0.9247,
+    "federated_detection_avg_f1": 0.7262,
+    "federated_detection_avg_acc": 0.7374,
+    "selected_round": 31
+  },
+  "config": {
+    "overrides": {
+      "federated.learning_rate": 0.001
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 258.5212938785553,
+  "finished_at": "2026-09-09 22:08:14"
+}

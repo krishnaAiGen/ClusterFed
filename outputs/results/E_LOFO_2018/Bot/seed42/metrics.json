@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "Bot",
+  "seed": 42,
+  "metrics": {
+    "family": "Bot",
+    "n_zero_day_rows": 20000,
+    "zero_day_detection_rate": 0.0001,
+    "benign_fpr": 0.021,
+    "selected_round": 74,
+    "zero_day_f1": 0.0001,
+    "zero_day_precision": 0.0065
+  },
+  "config": {
+    "family": "Bot"
+  },
+  "wall_clock_s": 103.69263911247253,
+  "finished_at": "2026-09-10 04:16:19"
+}

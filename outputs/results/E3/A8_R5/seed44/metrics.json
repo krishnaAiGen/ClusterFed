@@ -1,0 +1,23 @@
+{
+  "experiment": "E3",
+  "arm": "A8_R5",
+  "seed": 44,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9263,
+    "labeling_refined_avg_f1": 0.9236,
+    "federated_detection_avg_f1": 0.7081,
+    "federated_detection_avg_acc": 0.717,
+    "selected_round": 1
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 5
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 357.7750017642975,
+  "finished_at": "2026-09-09 19:42:12"
+}

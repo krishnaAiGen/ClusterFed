@@ -1,0 +1,31 @@
+{
+  "experiment": "E17",
+  "arm": "clusterfed",
+  "seed": 50,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.931,
+    "labeling_refined_avg_f1": 0.931,
+    "rho_before": 0.00856,
+    "rho_after": 0.00856,
+    "federated_detection_avg_f1": 0.8658,
+    "federated_detection_avg_acc": 0.8455,
+    "selected_round": 36,
+    "uplink_bytes_per_round": 148008,
+    "downlink_bytes_per_round": 148008,
+    "client_fraction": 1.0,
+    "kb_per_client_per_round": 289.078
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 0,
+      "federated.fedprox_mu": 0.1,
+      "clustering.n_clusters": 16
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 110.26325011253357,
+  "finished_at": "2026-09-12 00:14:28"
+}

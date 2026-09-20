@@ -1,0 +1,20 @@
+{
+  "experiment": "E3",
+  "arm": "A1_laplacian",
+  "seed": 44,
+  "metrics": {
+    "feature_selection_method": "laplacian",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9224,
+    "labeling_refined_avg_f1": 0.9194
+  },
+  "config": {
+    "overrides": {
+      "feature_selection.method": "laplacian"
+    },
+    "label_source": "pseudo",
+    "skip_federated": true
+  },
+  "wall_clock_s": 20.465832233428955,
+  "finished_at": "2026-09-09 19:02:37"
+}

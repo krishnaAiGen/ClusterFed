@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "Infiltration",
+  "seed": 42,
+  "metrics": {
+    "family": "Infiltration",
+    "n_zero_day_rows": 8,
+    "zero_day_detection_rate": 0.625,
+    "benign_fpr": 0.284,
+    "selected_round": 79,
+    "zero_day_f1": 0.0041,
+    "zero_day_precision": 0.0021
+  },
+  "config": {
+    "family": "Infiltration"
+  },
+  "wall_clock_s": 95.75002193450928,
+  "finished_at": "2026-09-10 02:01:10"
+}

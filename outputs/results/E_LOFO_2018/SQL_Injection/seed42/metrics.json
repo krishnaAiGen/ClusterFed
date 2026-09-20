@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "SQL_Injection",
+  "seed": 42,
+  "metrics": {
+    "family": "SQL Injection",
+    "n_zero_day_rows": 85,
+    "zero_day_detection_rate": 0.5647,
+    "benign_fpr": 0.0272,
+    "selected_round": 198,
+    "zero_day_f1": 0.2936,
+    "zero_day_precision": 0.1983
+  },
+  "config": {
+    "family": "SQL Injection"
+  },
+  "wall_clock_s": 128.68347883224487,
+  "finished_at": "2026-09-10 04:43:37"
+}

@@ -1,0 +1,35 @@
+{
+  "experiment": "E21",
+  "arm": "c02_topk_ef",
+  "seed": 46,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.929,
+    "labeling_refined_avg_f1": 0.929,
+    "rho_before": 0.03365,
+    "rho_after": 0.03365,
+    "federated_detection_avg_f1": 0.8723,
+    "federated_detection_avg_acc": 0.852,
+    "selected_round": 107,
+    "uplink_bytes_per_round": 29600,
+    "downlink_bytes_per_round": 148008,
+    "client_fraction": 0.2,
+    "kb_per_client_per_round": 34.689
+  },
+  "config": {
+    "overrides": {
+      "refinement.iterations": 0,
+      "federated.fedprox_mu": 0.1,
+      "clustering.n_clusters": 16,
+      "federated.client_fraction": 0.2,
+      "federated.compression": "topk",
+      "federated.topk_fraction": 0.1,
+      "federated.error_feedback": true
+    },
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 30.514160871505737,
+  "finished_at": "2026-09-12 05:51:05"
+}

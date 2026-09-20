@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO_2018",
+  "arm": "DDoS_attacksLOICHTTP",
+  "seed": 42,
+  "metrics": {
+    "family": "DDoS attacks-LOIC-HTTP",
+    "n_zero_day_rows": 6926,
+    "zero_day_detection_rate": 1.0,
+    "benign_fpr": 0.0372,
+    "selected_round": 89,
+    "zero_day_f1": 0.9813,
+    "zero_day_precision": 0.9633
+  },
+  "config": {
+    "family": "DDoS attacks-LOIC-HTTP"
+  },
+  "wall_clock_s": 120.40953803062439,
+  "finished_at": "2026-09-10 04:30:12"
+}

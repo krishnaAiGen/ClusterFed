@@ -1,0 +1,21 @@
+{
+  "experiment": "E1_2018",
+  "arm": "final",
+  "seed": 43,
+  "metrics": {
+    "feature_selection_method": "hybrid",
+    "selected_feature_count": 32,
+    "labeling_raw_avg_f1": 0.9456,
+    "labeling_refined_avg_f1": 0.9456,
+    "federated_detection_avg_f1": 0.862,
+    "federated_detection_avg_acc": 0.8696,
+    "selected_round": 164
+  },
+  "config": {
+    "overrides": {},
+    "label_source": "pseudo",
+    "skip_federated": false
+  },
+  "wall_clock_s": 122.17741107940674,
+  "finished_at": "2026-09-10 04:12:18"
+}

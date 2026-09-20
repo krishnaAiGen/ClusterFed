@@ -1,0 +1,19 @@
+{
+  "experiment": "E_LOFO",
+  "arm": "DoS_Slowhttptest",
+  "seed": 42,
+  "metrics": {
+    "family": "DoS Slowhttptest",
+    "n_zero_day_rows": 5228,
+    "zero_day_detection_rate": 0.8416,
+    "benign_fpr": 0.2695,
+    "selected_round": 82,
+    "zero_day_f1": 0.7374,
+    "zero_day_precision": 0.6561
+  },
+  "config": {
+    "family": "DoS Slowhttptest"
+  },
+  "wall_clock_s": 89.35148692131042,
+  "finished_at": "2026-09-10 01:55:06"
+}
